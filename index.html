@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      <img src="data:image/png;base64,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" alt="Logo da AluraBooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+</body>
+
+</html>
